@@ -1,5 +1,5 @@
-appId: com.example.nextron
-productName: My Nextron App
+appId: com.opashsoftware.desktop
+productName: Desktop App
 copyright: Copyright © 2023 Ketan Patel
 artifactName: ${name}-${version}-${os}-${arch}.${ext}
 publish: {provider: github, releaseType: draft, vPrefixedTagName: true}
