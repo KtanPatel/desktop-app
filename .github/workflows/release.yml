@@ -21,6 +21,12 @@ jobs:
           node-version: lts/*
           cache: 'npm'
       - run: npm install
+      - name: install required lib
+        if: matrix.os == 'ubuntu-latest'
+          run: |
+            sudo apt update
+            sudo apt install snapd
+            sudo snap install snapcraft --classic 
 
       - name: Build/release Electron app
         env:
