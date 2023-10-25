@@ -25,4 +25,4 @@ jobs:
       - name: Build/release Electron app
         env:
           GH_TOKEN: ${{ github.token }}
-        run: npm run build -- --publish always --mac --win --x64
+        run: npm run build -- --publish always --x64
