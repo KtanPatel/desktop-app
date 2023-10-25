@@ -2,6 +2,8 @@ appId: com.opashsoftware.desktop
 productName: Desktop App
 copyright: Copyright © 2023 Ketan Patel
 artifactName: ${name}-${version}-${os}-${arch}.${ext}
+snap:
+  publish: github
 publish: {provider: github, releaseType: draft, vPrefixedTagName: true}
 directories:
   output: dist
